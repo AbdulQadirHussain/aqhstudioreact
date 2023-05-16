@@ -1,13 +1,43 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+body{
+    background-color: #ffe9c5;
+    margin: 20px;
+}
+
+
+/* Main Page heading css for index.js file */
+.heading {
+    margin: 30px 0px;
+    color: burlywood;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 0px 2px 4px #ffe9c5;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Main Page Images css for index.js file */
+div .images {
+    display: flex;
+    justify-content: center;
+}
+
+.images img{
+    margin: 0px 5px;
+    border: 2px black solid;
+    width: 250px;
+    height: 350px;
+}
+
+
+/* Static color for all the Greeting when styling from here */
+.greetings_time h2{
+    margin: 10px 0px;
+    /* border: 2px black solid; */
+    text-align: center;
 }
